@@ -1,0 +1,140 @@
+/*-moz,-webkit 為新規格,幫助舊版正確顯示效果*/
+body{
+	font-family:"Courier New",微軟正黑體,"Microsoft JhengHei","儷黑 Pro", "LiHei Pro",標楷體,monospace;
+	/*字型有兩個字要加雙引號*/
+	/*指定連結字型檔測試
+		@font-face{
+			font-family:'ChunkFiveRegular';
+			src:url('font/chunkfive.eot');
+		}
+		font-family:ChunkFiveRegular, Georgia,serif;
+	*/
+	font-size:			16px;
+	/*預設文字是16px*/
+	background-image: 	url(images/bg.jpg);
+	background-size: 	500px 150px;
+	background-position:right top; 
+	background-repeat:	no-repeat;
+	color:				rgb(80,95,100);
+	font-weight: 		normal;
+
+	background-color: 	#88baf7;
+
+
+}
+header#head{
+	background-color: 	white;
+	height:  			105px;
+	width:  			800px;
+	margin: 			0 auto;
+	margin-top: 		20px;
+	text-align: 		left;
+
+}
+#pig{
+	width: 				105px;
+	height: 			105px;
+}
+#logo{
+	width: 				300px;
+	height: 			105px;
+	
+}
+#myphoto{
+	width: 				150px;
+	height: 			184px;
+}
+
+
+nav{
+	width: 				800px;
+	margin: 			0 auto;
+	text-align:  		center;
+	background-color: 	#edf092;
+}
+nav ul{
+	margin-bottom: 5px; 
+	margin-top:5px;
+	padding:5px;
+	
+
+}
+nav li{
+	display:  			inline-block ;
+	list-style-type:  	none;
+	padding: 			0px 50px 0px 50px;
+}
+
+
+
+
+#main{
+
+	width: 				800px;
+	background-color: 	#22b6e7;
+	display: table;
+	border-spacing: 	10px;
+	margin: 			0 auto;
+	text-align:  		left;
+}
+#main ul {
+	list-style-image: url("images/pig_icon.png");
+}
+
+.d_row{
+	display:table-row;
+}
+.d_row p,.d_row img{
+	margin-left:  		20px;
+}
+.d_row img{
+	margin-top: 		20px;
+}
+
+section{
+	display:  			table-cell;
+	padding: 			10px;
+	background-color:   #c7d0f5;
+
+
+}
+header{
+	color: 				DarkCyan;
+	font-size: 			1.5em;
+	font-weight: 		bold;
+}
+
+address{
+	font-style:   		normal;
+}
+
+footer{
+	width: 				800px; 
+	margin: 			0 auto;
+	margin-top: 		5px;
+	background-color: 	#edf092;
+	text-align: 		center;
+	font-size: 			90%;
+}
+
+a{
+	text-decoration: 	none;
+}
+ nav ul li a:link,nav ul li a:visited{
+ 	color: 				#ee3e80;
+ 	font-weight: 		bold;
+ 	font-size:   		130%;
+
+ }
+ nav ul li a:hover{
+ 	color: 				green;
+
+	text-transform:  	uppercase;
+ }
+
+#Works span{
+	color: #EF75C8;
+}
+ time{
+ 	color:#826363;
+ }
